@@ -3,129 +3,118 @@
     margin: 0;
 }
 
-.form {
-    width: 470px;
-    text-align: center;
-    margin: 40px 0px;
-    border-radius: 40px;
-    /* background-color: #CCE3F8; */
-    display: flex;
-    align-items: center;
-    padding: 50px 0px 0px 0px;
-    justify-content: center !important;
-    font-family: gordita;
-}
-
-.form form {
-
-    /* width: 480px; */
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.complain-form .form {
+    width: 470px !important;
     text-align: center !important;
-    align-items: center;
+    margin: 20px 0px !important;
+    border-radius: 40px !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 50px 0px 0px 0px !important;
+    justify-content: center !important;
+    font-family: gordita !important;
 }
 
-.modal h2 {
-    color: #0071DC;
+.complain-form .form form {
+
     
-    font-family: gordita;
-    font-size: 50px;
-    margin: 0px 0px;
-    font-weight: 700;
-    margin-right: 30px;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    align-items: center !important;
 }
 
-.form .pc-row {
-    display: flex;
+.complain-form h2 {
+    color: #0071DC !important;
+    
+    font-family: gordita !important;
+    font-size: 50px !important;
+    margin: 0px 0px !important;
+    font-weight: 700 !important;
+    margin-right: 30px !important;
 }
 
-.form .row {
-    display: flex;
-    /* flex-direction: row; */
-    align-items: center;
-
+.complain-form .form .pc-row {
+    display: flex !important;
 }
 
-.form form input {
-    width: 400px;
-    padding: 5px 10PX;
-    margin: 5px 10px;
+.complain-form .form .row {
+    display: flex !important;
+    align-items: center !important;
 }
 
-.form form .pc-row input , .form .pc-row select {
+.complain-form .form form input {
+    width: 400px !important;
+    padding: 5px 10PX !important;
     margin: 5px 10px !important;
-    width: 190px;
-    /* outline: 1px solid yellow; */
-    padding: 5px 10PX;
 }
 
-/* .form .row input,
-.form .row select {
-    padding:5px 10PX !important;
-    outline: none;
-    margin: 5px 10px;
-    width: 90px !important;
-    height: 50px;
-} */
-
-.form form .btns {
-    width: 514px;
-    margin: 34px 0px;
+.complain-form .form form .pc-row input ,.complain-form .form .pc-row select {
+    margin: 5px 10px !important;
+    width: 190px !important;
+    padding: 5px 10PX !important;
 }
 
-.form form .btns button {
-    width: 80%;
-    padding: 10px;
-    margin: 5px;
-    border: none;
-    border-radius: 10px;
-    font-weight: 700;
+.complain-form .form form .btns {
+    width: 514px !important;
+    margin: 34px 0px !important;
 }
-.form form .btns .primary {
 
-    background-color: #FFC221;
-    color: white;
+.complain-form .form form .btns button {
+    width: 80% !important;
+    padding: 10px !important;
+    margin: 5px !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
 }
-.form form .btns .primary:hover {
+.complain-form .form form .btns .primary {
+
+    background-color: #FFC221 !important;
+    color: white !important;
+}
+.complain-form .form form .btns .primary:hover {
 
 
-    border: 1px solid #FFC221;
-    background-color: transparent;
+    border: 1px solid #FFC221 !important;
+    background-color: transparent !important;
     
-    color: #02142B;
+    color: #02142B !important;
 }
-.form form .btns .secondary {
+.complain-form .form form .btns .secondary {
 
-    border: 1px solid #FFC221;
-    color: #02142B;
+    border: 1px solid #FFC221 !important;
+    color: #02142B !important;
 }
-.form form .btns .secondary:hover {
+.complain-form .form form .btns .secondary:hover {
 
-    background-color: #FFC221;
-    color: white;
+    background-color: #FFC221 !important;
+    color: white !important;
 }
 @media screen and (max-width:600px){
-    .form {
-        width: 80%;
+    .complain-form .form {
+        width: 80% !important;
+        margin: 0px !important;
     }   
-    .modal h2 {
-        font-size: 30px;
+    .complain-form h2 {
+        font-size: 24px !important;
     }
-    .form form{
-        width: 90%;
+    .complain-form .form form{
+        width: 90% !important;
+        margin: 0px  !important;    
     }
-    .form form input{
-        width: 95%;
+    .complain-form .form form input{
+        width: 95% !important;
     }
-    .form form .pc-row input , .form .pc-row select {
+    .complain-form .form form .pc-row input ,.complain-form .form .pc-row select {
         margin: 5px 5px !important;
-        width: 47%;
+        width: 47% !important;
         /* outline: 1px solid yellow; */
-        padding: 5px 10PX;
+        padding: 5px 10PX !important;
     }
-    .form form .btns {
-        width: 100%;
-        margin: 14px 0px;
+    .complain-form .form form .btns {
+        width: 100% !important;
+        margin: 14px 0px !important;
     }  
 }
