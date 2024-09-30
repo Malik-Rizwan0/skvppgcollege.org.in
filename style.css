@@ -5,6 +5,8 @@
     --white-color: #FFFFFF;
     --white-smoke-color: rgb(222, 222, 222);
     --accent-color: #FFD700;
+    --footer-color: #fff;
+    --footer-font-weight: 100;
     --gradient: linear-gradient(135deg, var(--primary-color), var(--primary-color-dark));
 }
 
@@ -589,11 +591,11 @@ p {
 
 .footer {
     /* background-color: #a29999b2; */
-    color: #0c0c0c;
-    font-weight: 700;
+    color: var(--footer-color);
+    font-weight: var(--footer-font-weight);
     /* padding: 50px 0 30px; */
-    /* background: var(--primary-color); */
-    background: url(Images/Library.webp);
+    background: var(--primary-color-dark);
+    /* background: url(Images/Library.webp); */
     /* background: url(Images/Library_BG.webp); */
 
     background-position: center;
@@ -606,19 +608,19 @@ p {
 .footer .container-fluid {
     border-radius: 100px 0px 0px 0px;
     padding: 40px !important;
-    background-color: #b9b9b988;
+    /* background-color: #b9b9b988; */
     /* background-color: rgba(255, 255, 255, 0.1); */
 }
 
 .footer h5 {
-    color: #0c0c0c;
+    color: var(--footer-color);
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .footer p {
-    color: #0c0c0c;
-    font-weight: 700;
+    color: var(--footer-color);
+    font-weight: var(--footer-font-weight);
 }
 
 .footer ul {
@@ -631,8 +633,8 @@ p {
 }
 
 .footer ul li a {
-    color: #0c0c0c;
-    font-weight: 700;
+    color: var(--footer-color);
+    font-weight: var(--footer-font-weight);
     text-decoration: none;
     transition: 0.2s ease-in;
 }
@@ -643,7 +645,7 @@ p {
 }
 
 .social-icons a {
-    color: #0c0c0c;
+    color: var(--footer-color);
     font-size: 24px;
 
     margin-right: 15px;
@@ -1185,11 +1187,11 @@ p {
 
 .notice-section {
     padding: 50px 10px;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
 }
 
 .notice-section .notice-board-container {
-    max-width: 900px;
+    /* max-width:500px; */
     margin: 2rem auto;
     background-color: var(--white-color);
     border-radius: 10px;
@@ -1215,8 +1217,8 @@ p {
 }
 
 .notice-section .notice-list {
-    max-height: 300px;
-    overflow-y: auto;
+    /* max-height: 300px; */
+    /* overflow-y: auto; */
     padding: 2rem;
 }
 
