@@ -1,0 +1,23 @@
+.hero-content img{
+    height: 500px;
+}
+ 
+.hero-content h3{
+    font-size: 50px;
+    color: #ffffff;
+}
+.hero-content h3::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    border-radius: 5px;
+    width: 15rem;
+    height: 3px;
+    background-color: white;
+}
+.hero-content p{
+    padding-top: 30px;
+ color: #ffffff;
+}

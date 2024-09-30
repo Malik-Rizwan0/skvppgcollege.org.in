@@ -1,0 +1,55 @@
+        /* Modal container (hidden by default) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            z-index: 1000; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+        }
+
+        /* Modal content */
+        .modal-content {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            box-shadow: 0 5px 15px rgba(0,0,0,.5);
+            overflow: hidden;
+        }
+
+        /* Fullscreen modal dialog */
+        .modal-fullscreen {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+        /* Close button */
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 30px;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #ccc;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Modal iframe */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
