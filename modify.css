@@ -35,6 +35,8 @@
 }
 .news-block li {
     list-style: none;
+    border-bottom: 1px solid #680202;
+    margin-bottom: 5px;
 }
 .news-block ul{
     padding: 1rem 0px;
