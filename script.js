@@ -57,4 +57,11 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+//Model
+ // Show the popup modal when the website opens
+ document.addEventListener('DOMContentLoaded', function () {
+    var myModal = new bootstrap.Modal(document.getElementById('popupModal'));
+    myModal.show();
+});
+
 
