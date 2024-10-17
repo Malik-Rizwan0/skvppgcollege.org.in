@@ -14,7 +14,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: "Patrick Hand", cursive;
     /* font-family: 'Courier New', Courier, monospace;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -1334,6 +1334,9 @@ p {
 }
 
 @media (max-width: 768px) {
+    *{
+        font-family: "Patrick Hand", cursive;
+    }
     .notice-section .notice-list {
         max-height: 300px;
         padding: 1rem;
