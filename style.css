@@ -53,6 +53,24 @@ p {
     color: var(--text-color);
 }
 
+.fixedicon{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    position: fixed;
+    z-index: 999999;
+    right: 35px;
+    bottom: 100px;
+    background: #680202;
+     padding: 10px; 
+    color: #fff;
+}
+.fixedicon i{
+    padding: 5px; 
+    margin-bottom: 5px;
+    border-bottom: 1px solid #fff ;
+    font-size: 20px !important;
+}
 .button {
     position: relative;
     transition: all 0.3s ease-in-out;
