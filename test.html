@@ -3,24 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Modal Example</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="modify.css">
+    <title>Image Popup</title>
+    <style>
+        /* Styling for the popup container */
+        .popup-container {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        /* Styling for the popup image */
+        .popup-container img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 8px;
+        }
+
+        /* Thumbnail image styling */
+        /* .thumbnail {
+            cursor: pointer;
+            width: 150px;
+            height: auto;
+            border: 2px solid #333;
+            border-radius: 4px;
+        } */
+    </style>
 </head>
 <body>
-    <!-- Modal -->
-   
 
-    <!-- Bootstrap JS Bundle (includes Popper.js) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Thumbnail image -->
+    <img src="Images/banner.jpg" alt="Thumbnail" class="thumbnail" onclick="showPopup(this)">
+    <img src="Images/Book.webp" alt="Thumbnail" class="thumbnail" onclick="showPopup(this)">
+    <img src="Images/college 1.webp" alt="Thumbnail" class="thumbnail" onclick="showPopup(this)">
+    <img src="Images/logo.png" alt="Thumbnail" class="thumbnail" onclick="showPopup(this)">
 
-    <!-- Show Modal on Page Load -->
+    <!-- Popup container -->
+    <div class="popup-container" id="popupContainer" onclick="hidePopup()">
+        <img src="" alt="Popup Image" id="popupImage">
+    </div>
+
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var myModal = new bootstrap.Modal(document.getElementById('popupModal'));
-            myModal.show();
-        });
+        // Function to show the popup
+        function showPopup(imgElement) {
+            const popupContainer = document.getElementById("popupContainer");
+            const popupImage = document.getElementById("popupImage");
+
+            // Set the popup image source to the clicked image's source
+            popupImage.src = imgElement.src;
+
+            // Show the popup
+            popupContainer.style.display = "flex";
+        }
+
+        // Function to hide the popup
+        function hidePopup() {
+            const popupContainer = document.getElementById("popupContainer");
+
+            // Hide the popup
+            popupContainer.style.display = "none";
+        }
     </script>
+
 </body>
 </html>
+

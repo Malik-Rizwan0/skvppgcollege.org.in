@@ -14,7 +14,9 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: "Nanum Myeongjo", serif;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    /* font-family: "Nanum Myeongjo", serif; */
     /* font-family: "Federant", serif; */
     /* font-family: 'Courier New', Courier, monospace;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
