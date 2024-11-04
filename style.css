@@ -15,15 +15,6 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Manrope', 'Quicksand', sans-serif;
-    
-    /* font-optical-sizing: auto; */
-    font-weight: 400;
-    /* font-family: "Nanum Myeongjo", serif; */
-    /* font-family: "Federant", serif; */
-    /* font-family: 'Courier New', Courier, monospace;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-family:monospace; */
 }
 
 
@@ -1367,7 +1358,7 @@ p {
 
 @media (max-width: 768px) {
     *{
-        font-family: "Patrick Hand", cursive;
+        /* font-family: "Patrick Hand", cursive; */
     }
     .notice-section .notice-list {
         max-height: 300px;
